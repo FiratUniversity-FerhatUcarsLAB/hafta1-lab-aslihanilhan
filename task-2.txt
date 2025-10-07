@@ -1,4 +1,56 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541098
+AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+1. BAŞLA
+
+2. ZAR_AT:
+    a. İKİ_ZAR_DEĞERİNİ_TOPLA.
+    b. Yeni Konumu HESAPLA.
+    c. Yeni Konumun Etkilerini Uygula (Örn: "Paro Al", "Hapishaneye Gir", vb.).
+    
+3. HAMLE_SONRASI_DURUMU_DEĞERLENDİR:
+    a. EĞER HAPİSHANEDEYSEN, BİR_SONRAKİ_TURA_GEÇ.
+    
+    b. EĞER TAHVİL/VERGİ ÖDEMEN GEREKİYORSA VE PARAN YETMİYORSA:
+        i. İpotek/Emlak Satışı Prosedürüne GİR (Gereksinimleri Karşılayana Kadar).
+        ii. BORCU_ÖDE.
+
+4. SATIN_ALMA_KARARI_VER (Mülk Üzerine Geldiyse):
+    a. EĞER KONUM SAHİPSİZ İSE:
+        i. EĞER NAKİT > SATIN_ALMA_FİYATI * 2 (Güvenlik Marjı) İSE:
+            MÜLKÜ_SATIN_AL.
+        ii. DEĞİLSE:
+            MÜLKÜ_İHALEYE_ÇIKAR (Gerektiğinde).
+    
+    b. EĞER KONUM RAKİBİN İSE:
+        RAKİBE KİRA ÖDE.
+
+5. GELİŞTİRME_KARARI_VER (Biriktirme Aşaması):
+    a. ÖNCELİKLİ_GELİŞTİRİLEBİLİR_GRUPLARI_BELİRLE (Örn: Renk Grubunu Tamamlanmış Olanlar).
+    
+    b. EĞER NAKİT_MEVCUT > GELİŞTİRME_MALİYETİ * 3 İSE (Yatırım Marjı):
+        i. EN_KİRA_VERİMLİ_GRUP İÇİNDE EV İNŞA ET.
+        ii. Her zaman **dengeli** (eşit) geliştirme kuralına uy.
+        
+    c. EN_YÜKSEK_KİRA_GETİRİSİNE_SAHİP_GRUP:
+        EĞER NAKİT YETERLİ İSE:
+            OTEL'e yükseltmek yerine 3 veya 4 EV'e odaklan (daha iyi getiri ve rakipleri engelleme potansiyeli).
+        
+6. TAKAS_KARARI_VER:
+    a. Mevcut Emlakları DEĞERLENDİR (Tamamlanmış setler, rakip setlerine engel olanlar).
+    
+    b. EĞER KENDİNE_SET_TAMAMLAMA FIRSATI VAR İSE:
+        i. Rakiplere, set tamamlama şanslarını **minimuma indirecek** teklifler yap.
+        ii. Rakipten, alacağın mülkten daha **düşük kiralı** mülkler/para karşılığı takas yapmaya çalış.
+        
+    c. EĞER RAKİBİN_SET_TAMAMLAMA FIRSATI VAR İSE:
+        Engellemek için teklifler yap (rakibin son parçasını yüksek fiyattan satın almayı teklif et).
+
+7. DİĞER_FİNANSAL_AYARLAMALAR (Eğer Hala Çok Fazla Nakit Varsa):
+    a. Parayı serbest bırakmak için (geliştirme fonu oluşturmak) **düşük kira getiren** mülkleri ipotek etmeyi düşün.
+    b. Asla **yüksek kira potansiyelli** veya tam bir setin parçası olan mülkleri ipotek etme.
+
+8. TURU_BİTİR.
+
+9. BİTİR
