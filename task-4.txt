@@ -1,4 +1,52 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541098
+AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+1. BAŞLA
+
+2. VERİLERİ_TANIMLA:
+    a. HEDEF_RENK = (Hedef_R, Hedef_G, Hedef_B)  // Örn: (255, 165, 0) - Kullanıcıdan Alınır
+    b. MEVCUT_RENK = (0, 0, 0)                  // Başlangıç rengi (Siyah)
+    c. MAKS_DEĞER = 255                         // Her bir bileşenin maksimum değeri
+    d. ADIM_BÜYÜKLÜĞÜ = 5                       // Her döngüde yapılan değişim miktarı
+    e. MAKS_DENEME = 1000                       // Güvenlik için maksimum döngü sayısı
+    f. DENEME_SAYISI = 0
+
+3. AYARLAMA_DÖNGÜSÜ:
+    // Mevcut renk hedeften yeterince yakın değilse ve maksimum deneme aşılmadıysa döngü devam eder.
+    
+    TEKRARLA (MEVCUT_RENK != HEDEF_RENK VE DENEME_SAYISI < MAKS_DENEME)
+    
+    // --- Kırmızı Bileşeni Ayarla (R) ---
+    a. EĞER MEVCUT_RENK.R < HEDEF_RENK.R İSE:
+        MEVCUT_RENK.R = MEVCUT_RENK.R + ADIM_BÜYÜKLÜĞÜ  // Kırmızıyı Artır
+    b. DEĞİLSE EĞER MEVCUT_RENK.R > HEDEF_RENK.R İSE:
+        MEVCUT_RENK.R = MEVCUT_RENK.R - ADIM_BÜYÜKLÜĞÜ  // Kırmızıyı Azalt
+    c. MEVCUT_RENK.R'yi (0, MAKS_DEĞER) arasında TUT (Sınırları aşmasını engelle).
+
+    // --- Yeşil Bileşeni Ayarla (G) ---
+    d. EĞER MEVCUT_RENK.G < HEDEF_RENK.G İSE:
+        MEVCUT_RENK.G = MEVCUT_RENK.G + ADIM_BÜYÜKLÜĞÜ  // Yeşili Artır
+    e. DEĞİLSE EĞER MEVCUT_RENK.G > HEDEF_RENK.G İSE:
+        MEVCUT_RENK.G = MEVCUT_RENK.G - ADIM_BÜYÜKLÜĞÜ  // Yeşili Azalt
+    f. MEVCUT_RENK.G'yi (0, MAKS_DEĞER) arasında TUT.
+
+    // --- Mavi Bileşeni Ayarla (B) ---
+    g. EĞER MEVCUT_RENK.B < HEDEF_RENK.B İSE:
+        MEVCUT_RENK.B = MEVCUT_RENK.B + ADIM_BÜYÜKLÜĞÜ  // Maviyi Artır
+    h. DEĞİLSE EĞER MEVCUT_RENK.B > HEDEF_RENK.B İSE:
+        MEVCUT_RENK.B = MEVCUT_RENK.B - ADIM_BÜYÜKLÜĞÜ  // Maviyi Azalt
+    i. MEVCUT_RENK.B'yi (0, MAKS_DEĞER) arasında TUT.
+
+    j. DENEME_SAYISI'nı BİR_ARTIR.
+    k. EKRANA_YAZDIR: "Deneme " + DENEME_SAYISI + " - Mevcut Renk: " + MEVCUT_RENK
+    
+    DÖNGÜ_SONU
+
+4. SONUÇLARI_GÖSTER:
+    a. EĞER MEVCUT_RENK == HEDEF_RENK İSE:
+        EKRANA_YAZDIR: "Hedef renge ulaşıldı: " + HEDEF_RENK + " (" + DENEME_SAYISI + " denemede)"
+    b. DEĞİLSE:
+        EKRANA_YAZDIR: "Maksimum deneme sayısına ulaşıldı veya tam eşleşme sağlanamadı. En yakın renk: " + MEVCUT_RENK
+
+5. BİTİR
