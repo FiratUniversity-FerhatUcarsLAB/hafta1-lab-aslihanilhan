@@ -1,4 +1,49 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541098
+AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+1. BAŞLA
+
+2. SABİT_ZAMANLARI_TANIMLA:
+    a. KAHVALTI_BASLANGIC = 07:00
+    b. KAHVALTI_BITIS    = 10:00
+    c. ÖĞLE_BASLANGIC    = 12:00
+    d. ÖĞLE_BITIS        = 14:00
+    e. AKŞAM_BASLANGIC   = 17:30
+    f. AKŞAM_BITIS       = 20:30
+
+3. MEVCUT_ZAMANI_AL:
+    MEVCUT_SAAT = Sistemden O_AN_Kİ_SAATİ_AL (Saat ve Dakika formatında, Örn: 13:15).
+
+4. KAHVALTI_KONTROLÜ:
+    EĞER MEVCUT_SAAT >= KAHVALTI_BASLANGIC VE MEVCUT_SAAT < KAHVALTI_BITIS İSE:
+        KAHVALTI_DURUMU = "AÇIK"
+    DEĞİLSE:
+        KAHVALTI_DURUMU = "KAPALI"
+
+5. ÖĞLE_YEMEĞİ_KONTROLÜ:
+    EĞER MEVCUT_SAAT >= ÖĞLE_BASLANGIC VE MEVCUT_SAAT < ÖĞLE_BITIS İSE:
+        ÖĞLE_DURUMU = "AÇIK"
+    DEĞİLSE:
+        ÖĞLE_DURUMU = "KAPALI"
+
+6. AKŞAM_YEMEĞİ_KONTROLÜ:
+    EĞER MEVCUT_SAAT >= AKŞAM_BASLANGIC VE MEVCUT_SAAT < AKŞAM_BITIS İSE:
+        AKŞAM_DURUMU = "AÇIK"
+    DEĞİLSE:
+        AKŞAM_DURUMU = "KAPALI"
+
+7. SONUÇLARI_EKRANA_YAZDIR:
+    EKRANA_YAZDIR "--- YEMEKHANE SERVİS DURUMU ---"
+    EKRANA_YAZDIR "Mevcut Saat: " + MEVCUT_SAAT
+
+    // Kahvaltı Durumu
+    EKRANA_YAZDIR "Kahvaltı Servisi (" + KAHVALTI_BASLANGIC + " - " + KAHVALTI_BITIS + "): " + KAHVALTI_DURUMU
+
+    // Öğle Yemeği Durumu
+    EKRANA_YAZDIR "Öğle Yemeği Servisi (" + ÖĞLE_BASLANGIC + " - " + ÖĞLE_BITIS + "): " + ÖĞLE_DURUMU
+
+    // Akşam Yemeği Durumu
+    EKRANA_YAZDIR "Akşam Yemeği Servisi (" + AKŞAM_BASLANGIC + " - " + AKŞAM_BITIS + "): " + AKŞAM_DURUMU
+
+8. BİTİR
