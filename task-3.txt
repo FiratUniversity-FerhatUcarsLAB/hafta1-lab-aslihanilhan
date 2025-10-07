@@ -1,4 +1,36 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541098
+AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+1. BAŞLA
+
+2. KULLANICI_ARAYÜZÜNÜ_GÖSTER:
+    a. Kullanıcıya arama seçeneklerini sun (Başlık, Yazar, ISBN, Anahtar Kelime).
+    b. Kullanıcıdan arama sorgusunu (KULLANICI_SORGUSU) ve arama türünü (ARAMA_TÜRÜ) AL.
+    
+3. VERİTABANI_SORGUSUNU_HAZIRLA:
+    a. KULLANICI_SORGUSU'nu TEMİZLE ve STANDARTLAŞTIR (Örn: tüm harfleri küçült, gereksiz boşlukları kaldır).
+    b. ARAMA_TÜRÜ'ne göre (Başlık, Yazar vb.) veritabanı sorgusu oluşturmak için uygun ALAN ADINI belirle.
+
+4. VERİTABANINI_KONTROL_ET:
+    a. KÜTÜPHANE_VERİTABANI'na BAĞLANTI_KUR.
+    b. Belirlenen ALAN ADI'nda, KULLANICI_SORGUSU'nu içeren kayıtları arayan bir sorgu ÇALIŞTIR.
+    c. Eşleşen tüm kitap kayıtlarını SONUÇLAR_LİSTESİ'ne KAYDET.
+
+5. SONUÇLARI_DEĞERLENDİR:
+    a. EĞER SONUÇLAR_LİSTESİ BOŞ DEĞİL İSE:
+        i. EŞLEŞME_SAYISINI = SONUÇLAR_LİSTESİ'nin boyutunu HESAPLA.
+        ii. EKRANA_YAZDIR: Eşleşme Sayısı + " sonuç bulundu."
+        
+        iii. HER bulunan SONUÇ için:
+            - Kitap Adını YAZDIR.
+            - Yazar Adını YAZDIR.
+            - ISBN ve YERLEŞİM_KODUNU (Raf Konumu/Sınıflandırma) YAZDIR.
+            - Kitabın MEVCUTLUK Durumunu KONTROL_ET ve EKRANA_YAZDIR (Örn: "Mevcut" veya "Ödünç Verildi - İade Tarihi: [Tarih]").
+            - Tüm bu bilgileri Kullanıcı Arayüzünde KART VEYA LİSTE şeklinde GÖSTER.
+            
+    b. DEĞİLSE (SONUÇLAR_LİSTESİ BOŞ İSE):
+        i. EKRANA_YAZDIR: "Aradığınız kritere uygun kitap bulunamadı."
+        ii. Kullanıcıya sorgusunu KONTROL_ETMESİNİ veya farklı bir arama türü DENEMESİNİ ÖNER.
+
+6. BİTİR
