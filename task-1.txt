@@ -1,4 +1,39 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541098
+AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+GÖREV: Mükemmel Omlet Yap
+
+1. BAŞLA
+
+2. MALZEMELERİ HAZIRLA:
+    a. YUMURTA_SAYISI = 3 (veya istenen miktar)
+    b. YAĞ = Tereyağı veya sıvı yağ
+    c. TUZ = Bir tutam
+    d. KARABİBER = Bir tutam
+    e. OPSİYONEL_MALZEMELER = Peynir, sebze, et vb. (önceden doğranmış/pişirilmiş)
+
+3. KARIŞIMI HAZIRLA:
+    a. Yumurtaları bir kaseye KIR.
+    b. Kaseye TUZ ve KARABİBER ekle.
+    c. Yumurtaların sarısı ve beyazı tamamen birleşene ve biraz köpürene kadar ÇIRP (hava eklemek için).
+
+4. TAVAYI ISIT:
+    a. Yapışmaz bir tavayı (tercihen 20-25 cm) orta-düşük ateşte OCAĞA KOY.
+    b. TAVA ISININCA YAĞ ekle. (Yaklaşık 1 çay kaşığı).
+    c. Yağın köpürmesi durana ve tavanın yüzeyini kaplayana kadar BEKLE.
+
+5. OMLETİ PİŞİR:
+    a. Çırpılmış yumurta karışımını tavaya DÖK.
+    b. Kenarlar pişmeye ve sertleşmeye başlayana kadar BEKLE (yaklaşık 30 saniye).
+    c. Spatula kullanarak pişmiş kenarları ortaya doğru İT, bu esnada tavanın eğimini kullanarak sıvı yumurtanın kenarın altına AKMASINI sağla.
+    d. Tüm sıvı yumurta alt kısma akana ve omletin yüzeyi hafifçe nemli kalana kadar bu işlemi TEKRARLA.
+    e. Ateşi HAFİFÇE KIS.
+    f. OPSİYONEL_MALZEMELER varsa, omletin yarısına SERP.
+
+6. SERVİSE HAZIRLA:
+    a. Spatula ile omletin boş kalan yarısını malzemeli kısmın üzerine KATLA.
+    b. Omleti ocakta birkaç saniye DAHA TUT (içi sıcak olsun diye).
+    c. Omleti servis tabağına KAYDIR.
+
+7. BİTİR
