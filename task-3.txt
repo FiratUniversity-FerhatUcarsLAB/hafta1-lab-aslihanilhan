@@ -2,7 +2,7 @@
 AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
-Seçtiğim algoritma:
+Seçtiğim algoritma: Kütüphanede kitap arama sistemi ve bu algoritmayı yazarken Gemini'den yardım aldım.
 1. BAŞLA
 
 2. KULLANICI_ARAYÜZÜNÜ_GÖSTER:
