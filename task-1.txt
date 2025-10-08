@@ -2,6 +2,7 @@
 AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Seçtiğim alorirtma: Mükemmel Omlet Yap ve bu algoritmayı yazarken Gemini'den yardım aldım.
 GÖREV: Mükemmel Omlet Yap
 
 1. BAŞLA
