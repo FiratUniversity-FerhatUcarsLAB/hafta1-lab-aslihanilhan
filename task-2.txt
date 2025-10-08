@@ -2,6 +2,7 @@
 AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Seçtiğim algoritma: Monopoly’de en iyi hamle seçimi ve bu algoritmayı yazarken Gemini'den yardım aldım.
 1. BAŞLA
 
 2. ZAR_AT:
