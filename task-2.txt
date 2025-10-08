@@ -3,6 +3,12 @@ AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 Seçtiğim algoritma: Monopoly’de en iyi hamle seçimi ve bu algoritmayı yazarken Gemini'den yardım aldım.
+Monopoly’de en iyi hamle seçimini adım adım pseudocode ile yazar mısın
+
+
+Monopoly'de her zaman "en iyi" tek bir hamle olmasa da, oyunun o anki durumuna göre optimal kararı verecek bir karar ağacı (decision tree) pseudocode ile modellenebilir. Bu pseudocode, bir oyuncunun sırası geldiğinde atabileceği zarları attıktan sonra öncelik sırasına göre yapması gereken eylemleri gösterir.
+
+Bu modelde amaç arsa alımını ve bina geliştirmeyi maksimize etmek ve rakip gelirini minimize etmektir.
 1. BAŞLA
 
 2. ZAR_AT:
