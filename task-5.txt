@@ -3,6 +3,12 @@ AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 Seçtiğim algoritma: Yemekhanedeki Yemek Saatleri ve bu algoritmayı yazarken Gemini'den yardım aldım.
+Yemekhanedeki Yemek Saatlerini adım adım pseudocode ile yazar mısın
+
+
+Harika bir istek! Bir yemekhanenin (veya kantinin) yemek saatlerini kontrol eden ve mevcut saati temel alarak kullanıcıya doğru bilgiyi sunan basit bir sistemi pseudocode ile adım adım aşağıda bulabilirsiniz.
+
+Bu modelde, sistemin önceden tanımlanmış saatlere sahip olduğu ve kullanıcının veya sistemin mevcut zamanı bildiği varsayılır.
 1. BAŞLA
 
 2. SABİT_ZAMANLARI_TANIMLA:
