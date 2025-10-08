@@ -2,6 +2,7 @@
 AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Seçtiğim algoritma:
 1. BAŞLA
 
 2. KULLANICI_ARAYÜZÜNÜ_GÖSTER:
