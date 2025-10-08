@@ -3,6 +3,12 @@ AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 Seçtiğim algoritma: Kütüphanede kitap arama sistemi ve bu algoritmayı yazarken Gemini'den yardım aldım.
+Kütüphanede kitap arama sistemini adım adım pseudocode ile yazar mısın
+
+
+Harika bir istek! Bir kütüphanedeki kitap arama sisteminin temel işlevlerini ve adımlarını içeren bir pseudocode (sözde kod) aşağıdadır. Bu sistem, kullanıcının girdiği bir arama sorgusunu işler ve veritabanında (veya katalogda) eşleşen sonuçları bulur.
+
+
 1. BAŞLA
 
 2. KULLANICI_ARAYÜZÜNÜ_GÖSTER:
