@@ -3,6 +3,12 @@ AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 Seçtiğim algoritma: Renkleri karıştırarak hedef rengi bulma ve bu algoritmayı yazarken Gemini'den yardım aldım.
+Harika bir konu! Renkleri karıştırarak bir hedef rengi (target color) bulma süreci, genellikle renk teorisi ve dijital renk modelleri (RGB veya CMYK gibi) kullanılarak modellenebilir.
+
+Aşağıdaki pseudocode, dijital ortamda en yaygın kullanılan RGB (Kırmızı-Yeşil-Mavi) modelini kullanarak, iki ana rengi karıştırarak üçüncü bir rengi nasıl elde edeceğinizi adım adım gösterir.
+
+Renk Karıştırma (RGB Modeli) Pseudocode
+Bu pseudocode, basitçe iki rengin belirli oranlarda karıştırılmasıyla oluşan sonucu hesaplar.
 1. BAŞLA
 
 2. VERİLERİ_TANIMLA:
