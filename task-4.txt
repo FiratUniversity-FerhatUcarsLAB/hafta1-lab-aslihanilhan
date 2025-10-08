@@ -2,6 +2,7 @@
 AD-SOYAD:Aslıhan İlhan
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Seçtiğim algoritma: Renkleri karıştırarak hedef rengi bulma ve bu algoritmayı yazarken Gemini'den yardım aldım.
 1. BAŞLA
 
 2. VERİLERİ_TANIMLA:
