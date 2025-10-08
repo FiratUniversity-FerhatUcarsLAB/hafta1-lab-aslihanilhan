@@ -4,7 +4,10 @@ AD-SOYAD:Aslıhan İlhan
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 Seçtiğim alorirtma: Mükemmel Omlet Yap ve bu algoritmayı yazarken Gemini'den yardım aldım.
 GÖREV: Mükemmel Omlet Yap
+mükemmel omlet yapmayı adım adım pseudocode ile yazar mısın
 
+
+Harika bir fikir! Mükemmel bir omlet yapmak için gereken adımları pseudocode formatında aşağıda bulabilirsiniz. Bu pseudocode, temel bir omlet için gerekli tüm işlemleri mantıksal bir sırayla gösterir.
 1. BAŞLA
 
 2. MALZEMELERİ HAZIRLA:
